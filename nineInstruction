@@ -7,15 +7,15 @@ cd TASKS
 
 Базовые команды Git
 Создание файлов и коммиты
-echo "Первый файл" > file1.txt
+echo "12" > file1.txt
 git add file1.txt
 git commit -m "Добавлен file1.txt"
 
-echo "Второй файл" > file2.txt
+echo "13" > file2.txt
 git add file2.txt
 git commit -m "Добавлен file2.txt"
 
-echo "Третий файл" > file3.txt
+echo "14" > file3.txt
 git add file3.txt
 git commit -m "Добавлен file3.txt"
 
@@ -24,7 +24,7 @@ git push origin main
 
 Создание ветки branch1
 git checkout -b branch1
-echo "Четвертый файл" > file4.txt
+echo "155" > file4.txt
 git add file4.txt
 git commit -m "Добавлен file4.txt"
 
